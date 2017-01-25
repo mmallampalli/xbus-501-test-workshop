@@ -1,5 +1,7 @@
 import unittest
 from unittest import skip
+# from tests.test_buildings import *
+# from tests.test_vehicles import *
 
 class InitializationTests(unittest.TestCase):
 
@@ -21,7 +23,7 @@ class InitializationTests(unittest.TestCase):
         except ImportError:
             self.fail("Was not able to import the motorsports")
 
-    @skip("pending test code")
+    # @skip("pending test code")
     def test_import_vehicles(self):
         """
         Ensure the test suite can import the vehicles module
